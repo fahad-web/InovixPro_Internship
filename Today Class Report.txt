@@ -1,0 +1,64 @@
+Today Class Report
+02/10/2024
+Today we will learn Git & Github. Git and Github are not same. Thus are different.
+Example :
+•	Git looks my all file in git .it looks which file any change or modify.
+•	Github is a platform which are create a field where many people are works together.
+Then we install git in our laptop and create some folder ,file for practices.
+Example : 
+•	Folder create : mkdir folderName,
+•	File create : touch filename,
+•	Folder Directory : cd folderName,
+•	Back one folder : cd ../,
+Then we learn how to create a github repositories and this repositories clone in git .
+Example : 
+•	Clone Repo : git clone gitRepoLink,
+Then we learn how to check git status have any change or modify in file .
+Example : 
+•	Check git status : git status
+Then we learn working directory to stage file transfer, it check only what is change this file. Only identify this stage : change ,delete ,update, modify etc.
+Example : 
+•	stage git all file : git add –all,
+•	Stage git all file : git add -A,
+•	Stage git specific folder file : git add .(this command work only specific folder )
+•	Stage one specific file : git add folderName/filename,
+•	Reset working directory : git reset,
+Then we will learn stage to local repositories.
+Example : 
+•	Commit file : git commit,
+•	Reset working directory : git reset HEAD~(this command not work in my laptop)
+Now we learn Git remove ,
+We can remove it manually or using command .
+If we remove it manually ,
+Example : 
+•	Fast work to stage : git add .
+•	Reset file : git reset (It only change status not back file)
+•	If you need file : git reset –hard (this command change status and also back delete file )
+If we remove using command ,
+Example : 
+•	Remove File : git rm fileNmae,(this command done two work complete one time “Remove + work to stage”)
+•	If you modify file remove : git rm filename -f (-f use because using force other wish modify file note remove direct )
+•	Change stage file status : git rm –cached filename,(it only change stage status not remove working directory )
+•	Remove folder : git rm -r foldderName,(it remove folder all file or it have any folder all remove this command).
+Now we learn git branch ,
+Q - How to check branch ? 
+Ans : git branch.
+Q - How to create new branch ?
+Ans : git branch branchName.
+Q – how to change git branch ?
+Ans : git checkout branchName.  
+Q -  How to merge any branch on main branch ? 
+Ans : git merge main -m “main branch all file merge to development branch”.(stay development branch must)
+Q -  How to merge main branch with another branch?
+Ans : git merge branchName -m “merge all file main branch”.(stay must Main branch)
+If we face git merge conflict: It’s normally create when 2 branch create same name file .
+If two file context are same , So they not create any conflict .we merge this branch both side no problem face.
+Q – How to change default master branch name main branch ?
+ Ans : git branch -m master main
+Now we learn git to github push ,fetch and poll.
+Example : 
+•	Push remote : git push origin main
+•	Push remote force : git push -f origin main 
+•	Push another branch : git push origin development
+•	Fetch remote to local : git fetch origin main
+•	Fetch remote to local : git fetch 
