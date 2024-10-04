@@ -1,0 +1,62 @@
+Today Class Work
+03/10/2024
+Today we learn HTML crash course. This is full meaning hyper Text markup language. This class is for beginners. We learn html5. This is a markup language for creating webpages and document. We need for this course below writing a list,
+Web browsers (Choose Any one )
+•	Chrom
+•	Mozilla
+•	Safari
+•	EDGE
+Text editor (Choose any one )
+•	Visual studio code 
+•	Atom.io
+•	Notepad++ (Windows)
+•	TextMate (Mac)
+We learn basic html syntax ,tag
+HTML start  a start tag and close it closing tag. Below show a basic html structure,
+<HTML>
+<Head>
+<Title>
+</Title>
+</head>
+<Body>
+</Body>
+</HTML>
+
+Today we learn HTML basic tag
+
+
+Example :  
+•	<title></title>
+•	<p></p>
+•	<a href=””></a>
+•	<strong></strong>
+•	<b></b>
+•	<br>
+•	<em></em>
+•	<table></table>
+•	<tr></tr>
+•	<th><</th>
+•	<td></td>
+•	<from action=”” method=””></from>
+•	<lable></lable>
+•	<input type=”” name=””>
+•	<textarea name=””>
+•	<div></div>
+•	<select></select>
+•	<option value=””>
+•	<button></button>
+•	<img src=”” alt=”” width=”” height=””>
+•	<bbr title=””></bbr>
+•	<cite></cite>
+•	<footer></footer>
+•	<section></section>
+•	<details></details>
+•	<nav></nav>
+•	<article></article>
+•	<aside></aside>
+•	<small></small>
+•	<ul></ul>
+•	<li></li>
+•	<style></style>
+•	<hr>
+
